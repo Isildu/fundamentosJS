@@ -19,9 +19,8 @@ console.log(ex2(120, 50))
 let triplicar = (num) => num * 3;
 
 
-console.log(triplicar(-2.347))
+console.log(triplicar(2347))
 console.log(triplicar(891))
-console.log(triplicar(-15.672))
+console.log(triplicar(15672))
 console.log(triplicar(43))
-console.log(triplicar(-109.853))
 console.log(triplicar(7))
