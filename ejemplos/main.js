@@ -46,4 +46,7 @@ body {
 background-color: #f5f5f5;
 }
 `;
-document.appendChild(style);
+document.head.appendChild(style);
+const header = document.createElement("header");
+header.innerHTML = "<h1>alquiler</h1>";
+document.body.appendChild(header);
